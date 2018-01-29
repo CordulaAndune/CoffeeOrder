@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Bestell dir Kaffee</string>
+    <string name="order">Bestellen</string>
+    <string name="quantity">Anzahl</string>
+    <string name="price">Preis</string>
+    <string name="order_summary">Bestellungszusammenfassung</string>
+    <string name="toppings">Extras</string>
+    <string name="whipped_cream">Sahne</string>
+    <string name="chocolate">Schokolade</string>
+    <string name="name">Name</string>
+    <string name="customer_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="thank_you">Vielen Dank!</string>
+    <string name="add_whipped_cream">Mit Sahne? <xliff:g id="whippedCream" example="true">%b</xliff:g></string>
+    <string name="add_chocolate">Mit Schokolade? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+    <string name="ordered_quantity">Anzahl: <xliff:g id="orderedQuantity" example="2">%d</xliff:g></string>
+    <string name="total">Insgesamt: <xliff:g id="totalPrice" example="10">%s</xliff:g></string>
+    <string name="coffe_order">" Kaffee-Bestellung von <xliff:g id="name" example="Amy">%s</xliff:g>"</string>
+    <string name="more_than_100">Du kannst nicht mehr als 100 Tassen Kaffee bestellen.</string>
+    <string name="less_than_1">Du kannst nicht weniger als eine Tasse Kaffee bestellen.</string>
+    <string name="coffee">Kaffee <xliff:g id="orderedQuantity" example="2">%d</xliff:g></string>
+    <string name="price_per_cup">à <xliff:g id="price" example="2">%d</xliff:g>€</string>
+    <string name="chooser_title">Bestellen…</string>
+    <string name="wishes">Wünsche?</string>
+    <string name="your_wishes">Deine Wünsche: <xliff:g id="editTextWishes" example="Bitte benutze weiße Schokolade">%s</xliff:g></string>
+</resources>

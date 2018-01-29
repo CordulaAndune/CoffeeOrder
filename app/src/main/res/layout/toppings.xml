@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topping_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/inner_margin"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/coffee_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="@dimen/outer_padding"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/textsize" />
+
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="@dimen/outer_padding"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/textsize" />
+
+    <CheckBox
+        android:id="@+id/checkbox_whippedCream"
+        style="@style/coffees"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/small_padding"
+        android:text="@string/whipped_cream" />
+
+    <CheckBox
+        android:id="@+id/checkbox_chocolate"
+        style="@style/coffees"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/small_padding"
+        android:text="@string/chocolate" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- in xml file -->
+    <string name="app_name">Order Your Coffee</string>
+    <string name="order">Order</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="toppings">Toppings</string>
+    <string name="whipped_cream">Whipped cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="name">Name</string>
+
+
+    <!-- in MAinActivity.java -->
+    <string name="customer_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="thank_you">Thank you!</string>
+    <string name="add_whipped_cream">   Add whipped Cream? <xliff:g id="whippedCream" example="true">%b</xliff:g></string>
+    <string name="add_chocolate">   Add chocolate? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+    <string name="ordered_quantity">Quantity: <xliff:g id="orderedQuantity" example="2">%d</xliff:g></string>
+    <string name="total">Total:  <xliff:g id="totalPrice" example="10">%s</xliff:g></string>
+    <string name="coffe_order">Coffee order from <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="increment" translatable="false">+</string>
+    <string name="decrement" translatable="false">-</string>
+    <string name="more_than_100">You cannot order more than 100 cups of coffee.</string>
+    <string name="less_than_1">You cannot order less than 1 cup of coffee.</string>
+    <string name="coffee">Coffee <xliff:g id="orderedQuantity" example="2">%d</xliff:g></string>
+    <string name="price_per_cup">à $<xliff:g id="price" example="2">%d</xliff:g></string>
+    <string name="multiple_coffees" translatable="false"><xliff:g id="orderedQuantity" example="5">%d</xliff:g>x</string>
+    <string name="chooser_title">Send order…</string>
+    <string name="wishes">Wishes?</string>
+    <string name="your_wishes">Your wishes: <xliff:g id="editTextWishes" example="please use white chocolate">%s</xliff:g></string>
+</resources>

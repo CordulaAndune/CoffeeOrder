@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andriod.justjava.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/outer_padding">
+
+        <EditText
+            android:id="@+id/customer_name"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="textCapWords"
+            android:imeOptions="actionDone"/>
+
+        <TextView
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_marginRight="@dimen/inner_margin"
+                android:onClick="decrement"
+                android:text="@string/decrement"
+                android:textSize="@dimen/textsize"
+                android:theme="@style/Coffee.Button" />
+
+            <TextView
+                android:id="@+id/quantity_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textsize" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_marginLeft="@dimen/inner_margin"
+                android:onClick="increment"
+                android:text="@string/increment"
+                android:textSize="@dimen/textsize"
+                android:theme="@style/Coffee.Button" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toppings" />
+
+        <EditText
+            android:id="@+id/wishes"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/wishes"
+            android:background="@drawable/wishes_bg"
+            android:paddingBottom="@dimen/edit_text_padding"
+            android:paddingRight="@dimen/edit_text_padding"
+            android:paddingTop="@dimen/edit_text_padding"
+            android:paddingLeft="@dimen/inner_margin"
+            android:inputType="textMultiLine"
+            android:imeOptions="actionDone"/>
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/order_button"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/outer_padding"
+                android:text="@string/order"
+                android:textSize="@dimen/textsize"
+                android:theme="@style/Coffee.Button" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/outer_padding"
+                android:layout_toRightOf="@id/order_button"
+                android:layout_below="@id/order_button"
+                android:adjustViewBounds="true"
+                android:contentDescription="Coffee owl"
+                android:src="@drawable/coffee" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
